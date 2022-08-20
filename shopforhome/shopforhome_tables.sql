@@ -156,3 +156,9 @@ ADD PRIMARY KEY (`id`);
 
 ALTER TABLE `shopforhome`.`discount` 
 CHANGE COLUMN `id` `id` BIGINT NOT NULL AUTO_INCREMENT ;
+
+
+INSERT INTO shopforhome.product_category VALUES (2147483641, 'Furniture', 0, '2022-06-23 23:03:26', '2022-06-23 23:03:26');
+INSERT INTO shopforhome.product_category VALUES (2147483642, 'Electronics', 1, '2022-06-23 23:03:26', '2022-06-23 23:03:26');
+INSERT INTO shopforhome.product_category VALUES (2147483643, 'Clothes', 2, '2022-06-23 23:03:26', '2022-06-23 23:03:26');
+INSERT INTO shopforhome.product_category VALUES (2147483644, 'Groceries', 3, '2022-06-23 23:03:26', '2022-06-23 23:03:26');
