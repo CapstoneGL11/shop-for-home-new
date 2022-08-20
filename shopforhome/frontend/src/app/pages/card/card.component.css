@@ -1,0 +1,10 @@
+
+.fa-heart {
+    color :palevioletred;
+    cursor : pointer;
+}
+
+.card-list{
+    height: 200px;
+    width: 250px ;
+}

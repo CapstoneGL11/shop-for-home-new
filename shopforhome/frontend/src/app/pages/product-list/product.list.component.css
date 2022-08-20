@@ -1,0 +1,22 @@
+
+  .isDisabled {
+    color: currentColor;
+    cursor: not-allowed;
+    opacity: 0.5;
+    text-decoration: none;
+  }
+  .table,th,td,tr,thead{
+    background-color: honeydew;
+    border: 1px solid black;
+}
+
+.isDisabled {
+  color: currentColor;
+  cursor: not-allowed;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.table,th,td,tr,thead{
+  background-color: honeydew;
+  border: 1px solid black;
+}

@@ -1,0 +1,7 @@
+.row{
+    flex-wrap: initial;
+}
+
+.card-details {
+    padding: 50px;
+}
