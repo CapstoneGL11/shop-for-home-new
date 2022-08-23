@@ -29,11 +29,7 @@
             <button  *ngIf="user.role=='ROLE_MANAGER'" (click)=removeAdmin(user.email)  class="btn btn-success">Remove Admin</button>
            <!-- <a  [ngClass]="{'isDisabled':'(productInfo.productStock >10)? true:false'}"style="display: block" class="isDisabled"  routerLink="/email">Email</a>-->
         </td>
-        <td>
-
-            <button  *ngIf="user.role=='ROLE_CUSTOMER'" (click)=removeAdmin(user.email)  class="btn btn-success">delete</button>
-
-        </td>
+        
 
     </tbody>
 </table>

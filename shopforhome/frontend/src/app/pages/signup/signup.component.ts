@@ -46,6 +46,13 @@ export class SignupComponent implements OnInit {
 
   
   onSubmit() {
+    console.log(this.registerForm.value)
+    this.user.email = this.registerForm.value.email
+    this.user.name = this.registerForm.value.name
+    this.user.password = this.registerForm.value.password
+    this.user.phone = this.registerForm.value.phone
+    this.user.address = this.registerForm.value.address
+    console.log(this.user)
     this.userService.signUp(this.user).subscribe(u => {
       this.router.navigate(['/login']);
     },

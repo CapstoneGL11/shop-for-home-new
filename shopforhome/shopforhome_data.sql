@@ -17,3 +17,12 @@ INSERT INTO `shopforhome`.`product_info` (`product_id`, `category_type`, `create
 INSERT INTO `shopforhome`.`product_info` (`product_id`, `category_type`, `create_time`, `product_description`, `product_icon`, `product_name`, `product_price`, `product_status`, `product_stock`, `update_time`) VALUES ('G0000002', '3', '2022-08-23 23:03:26', 'Tomatoes', 'https://images-prod.healthline.com/hlcmsresource/images/AN_images/tomatoes-1296x728-feature.jpg', 'Chair', '59.00', '0', '150', '2022-08-23 23:03:26');
 INSERT INTO `shopforhome`.`product_info` (`product_id`, `category_type`, `create_time`, `product_description`, `product_icon`, `product_name`, `product_price`, `product_status`, `product_stock`, `update_time`) VALUES ('G0000003', '3', '2022-08-23 23:03:26', 'Hair Oil', 'https://www.jiomart.com/images/product/original/490003992/bajaj-almond-drops-non-sticky-hair-oil-19-ml-product-images-o490003992-p590120475-0-202203150039.jpg', 'Almond Hair Oil', '199.00', '0', '900', '2022-08-23 23:03:26');
 INSERT INTO `shopforhome`.`product_info` (`product_id`, `category_type`, `create_time`, `product_description`, `product_icon`, `product_name`, `product_price`, `product_status`, `product_stock`, `update_time`) VALUES ('G0000004', '3', '2022-08-23 23:03:26', 'Boost', 'https://m.media-amazon.com/images/I/61aWxwbct0L._SY450_.jpg', 'Boost', '99.00', '0', '90', '2022-08-23 23:03:26');
+
+
+-----
+
+ADD ADMIN
+
+INSERT INTO `shopforhome`.`users` (`id`, `active`, `address`, `email`, `name`, `password`, `phone`, `role`) VALUES ('1', '1', 'admin', 'admin@admin.com', 'admin', '$2a$10$grDyDYbame2gFmg8X5rXmeYdEQQ3Y8qPvoDYKqzPCJ3iKGpLbVu/O', '0000000000', 'ROLE_MANAGER');
+
+-------
