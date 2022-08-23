@@ -10,9 +10,7 @@ import org.springframework.transaction.annotation.Transactional;
 import eshop.homedecor.report.entity.ProductInfo;
 import eshop.homedecor.report.repository.ProductInfoRepository;
 
-/**
- * Created By Zhu Lin on 3/10/2018.
- */
+
 @Service
 public class ProductServiceImpl  {
 

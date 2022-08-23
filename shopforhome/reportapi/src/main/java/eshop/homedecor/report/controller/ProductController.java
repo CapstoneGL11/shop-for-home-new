@@ -8,20 +8,13 @@ import org.springframework.web.bind.annotation.RestController;
 import eshop.homedecor.report.response.ProductInfoResponse;
 import eshop.homedecor.report.service.impl.ProductServiceImpl;
 
-/**
- * Created By Zhu Lin on 3/10/2018.
- */
+
 @CrossOrigin
 @RestController
 public class ProductController {
    
     @Autowired
     ProductServiceImpl productService;
-
-    /**
-     * Show All Categories
-     */
-
        
     @GetMapping("/productall")
     public ProductInfoResponse findAll() {
