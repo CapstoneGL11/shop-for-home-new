@@ -18,6 +18,7 @@ export class UserService {
     public currentUser: Observable<JwtResponse>;
     public nameTerms = new Subject<string>();
     public name$ = this.nameTerms.asObservable();
+  controls: any;
     constructor(private http: HttpClient,
                 private cookieService: CookieService) {
         const memo = localStorage.getItem('currentUser');

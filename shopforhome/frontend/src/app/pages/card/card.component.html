@@ -9,6 +9,11 @@
     </div>-->
     <input type = "text" align="left" name="search" [(ngModel)]="searchText" placeholder ="Search Here" class="display-4 mb-5" />
     <i class="fa fa-search search-btn"></i>
+    <select (change)="sortProductByPrice($event.target)" >
+      <option selected value="undefined" disabled>Sort By</option>
+      <option value="lowtohigh">Price: Low to High</option>
+      <option value="hightolow">Price: High to Low</option>
+    </select>
 </div>
  
 
@@ -19,8 +24,10 @@
 
   <div *ngFor="let productInfo of page?.content | filter:searchText" class="col-lg-4 ">
     <div class="card mb-4"  >
+      
       <img height="50%" class="card-img-top" src="{{productInfo.productIcon}}" alt="{{productInfo.productName}}">
       <div class="card-body">
+        
         <h4 class="card-title ">{{productInfo.productName}}</h4>
         
         <div class="text-left">

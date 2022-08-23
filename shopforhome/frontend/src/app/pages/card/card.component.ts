@@ -34,7 +34,14 @@ export class CardComponent implements OnInit, OnDestroy {
 
   currentUser: JwtResponse;
     userSubscription: Subscription;
-
+    sortProductByPrice(option){
+    
+      if(option.value =='lowtohigh'){
+        this.page.content.sort((a, b) => Number(a.productPrice) - Number(b.productPrice));
+      }else if(option.value =='hightolow'){
+        this.page.content.sort((a, b) => Number(b.productPrice) - Number(a.productPrice));
+      }
+   }
 
 
   ngOnInit() {

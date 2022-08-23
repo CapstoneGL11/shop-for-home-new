@@ -1,4 +1,4 @@
-import {Component, NgModule} from '@angular/core';
+import {NgModule} from '@angular/core';
 import {RouterModule, Routes} from '@angular/router';
 import {CardComponent} from './pages/card/card.component';
 import {LoginComponent} from './pages/login/login.component';
@@ -14,7 +14,6 @@ import {ProductEditComponent} from "./pages/product-edit/product-edit.component"
 import {Role} from "./enum/Role";
 import { EmailComponent } from './pages/email/email.component';
 import { DiscountComponent } from './pages/discount/discount.component';
-import { products } from './mockData';
 import { AdminuserComponent } from './pages/adminuser/adminuser.component';
 import { WishListComponent } from './pages/wish-list/wish-list.component';
 import { AddProductComponent } from './pages/add-product/add-product.component';

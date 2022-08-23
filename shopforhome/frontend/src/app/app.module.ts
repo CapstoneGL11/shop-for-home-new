@@ -1,6 +1,7 @@
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
 
+
 import {AppComponent} from './app.component';
 import {NavigationComponent} from './parts/navigation/navigation.component';
 import {CardComponent} from './pages/card/card.component';
@@ -9,7 +10,7 @@ import {AppRoutingModule} from './app-routing.module';
 import {LoginComponent} from './pages/login/login.component';
 import {SignupComponent} from './pages/signup/signup.component';
 import {DetailComponent} from './pages/product-detail/detail.component';
-import {FormsModule} from '@angular/forms';
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {CartComponent} from './pages/cart/cart.component';
 import {CookieService} from "ngx-cookie-service";
@@ -62,7 +63,8 @@ import { AddProductComponent } from './pages/add-product/add-product.component';
         FormsModule,
         HttpClientModule,
         AngularFileUploaderModule,
-        Ng2SearchPipeModule
+        Ng2SearchPipeModule,
+        ReactiveFormsModule
 
     ],
     providers: [CookieService,ExcelService,AdminuserComponent,

@@ -1,0 +1,30 @@
+ProductId,ProductName,Price,Stock,Description,ProductIcon,CategoryType
+G0000001,Ghee,99,66,Ghee in Oils,https://cdn.shopify.com/s/files/1/0276/3112/4591/products/12.jpg?v=1656391186,3
+G0000002,Olive Oil,108,9,Olive Oil in Oils,https://khalisthings.com/wp-content/uploads/2020/07/IMG-20200730-WA0200.jpg,3
+G0000003,Refined Oil,70,97,Refined Oil in Oils,https://m.media-amazon.com/images/I/51TH5xE+2sL.jpg,3
+G0000004,Milk,40,12,Milk For Dairy,https://images.newindianexpress.com/uploads/user/ckeditor_images/article/2021/9/1/WhatsApp_Image_2021-09-01_at_08.26_.55_.jpeg?w=376&dpr=2.6,3
+G0000005,Eggs,60,63,Eggs For Dairy,https://m.media-amazon.com/images/I/51zyo5iVbiL._SL1000_.jpg,3
+G0000006,Basmati Rice,150,51,Basmati Rice,https://www.jiomart.com/images/product/original/491215473/fortune-everyday-full-grain-basmati-rice-1-kg-product-images-o491215473-p491215473-0-202203150346.jpg,3
+G0000007,Aata,100,25,Aata in Flour,https://navbharattimes.indiatimes.com/photo/84964841.cms,3
+G0000008,Sugar,170,43,Sugar for Baking,https://rukminim1.flixcart.com/image/416/416/kvy58y80/sugar/u/k/o/1000-premium-quality-white-sugar-1kg-pack-of-1-pouch-1-white-original-imag8qbuzzkhmdzp.jpeg?q=70,3
+G0000009,Chana Daal,60,33,Chana Daal in Pulses,https://m.media-amazon.com/images/I/71nx6ZI0PmL._SL1000_.jpg,3
+G0000010,Horlicks,210,120,Horlicks for taste making,https://cdn01.pharmeasy.in/dam/products_otc/I04915/horlicks-health-nutrition-drink-jar-500-g-3-1654168222.jpg,3
+G0000011,Boost,220,94,Boost for taste making,https://5.imimg.com/data5/UQ/HJ/MY-7778582/boost-health-drinks-500x500.jpg,3
+G0000012,Salt,50,65,Salt in Spices,https://m.media-amazon.com/images/I/71TI4Fn9xFL._SL1024_.jpg,3
+G0000013,Chilli Powder,30,37,Chilli Powder in Spices,https://www.aachifoods.com/image/cache/catalog/WhatsAppImage2020-02-11at1.17.16PM-1000x1000.jpeg,3
+G0000014,Turmeric Powder,30,28,Turmeric Powder in Spices,https://5.imimg.com/data5/SELLER/Default/2020/11/XO/NL/XL/1483325/turmeric-powder-500x500.jpg,3
+G0000015,Peanut Butter,80,12,Peanut Butter in Dairy,https://sc04.alicdn.com/kf/H6e11e9732a0e42e4ba5dec213c5b5891U.jpg,3
+G0000016,Fruit Jam,70,50,Fruit Jam,https://m.media-amazon.com/images/I/61CH8su0IFL._SX522_.jpg,3
+G0000017,Bread,20,93,Bread in Bakery,https://media.istockphoto.com/photos/sliced-bread-picture-id696916924?k=20&m=696916924&s=612x612&w=0&h=5y2fy7WWjX1ZmMuiZFAMVwRwy59dUSwjopZJY7txf_M=,3
+G0000018,Onion,40,83,Onion For Vegetables,https://produits.bienmanger.com/36700-0w470h470_Organic_Red_Onion_From_Italy.jpg,3
+G0000019,Tomato,40,38,Tomato For Vegetables,https://www.collinsdictionary.com/images/full/tomato_281240360.jpg,3
+G0000020,Potato,30,30,Potato For Vegetables,https://www.macmillandictionary.com/external/slideshow/full/141151_full.jpg,3
+G0000021,Green Chilli,20,49,Green Chilli For Vegetables,https://www.veggycation.com.au/siteassets/veggycationvegetable/chillies-green.jpg,3
+G0000022,Carrot,30,58,Carrot For Vegetables,https://www.jiomart.com/images/product/original/590003546/carrot-orange-500-g-product-images-o590003546-p590003546-0-202203151011.jpg,3
+G0000023,Cucumber,30,54,Cucumber For Vegetables,https://rukminim1.flixcart.com/image/416/416/kt8zb0w0/plant-seed/i/7/r/120-kheera-cucumber-seeds-120-seeds-qualtivate-original-imag6mhja2dzqhhf.jpeg?q=70,3
+G0000024,Garlic,20,40,Garlic For Vegetables,https://m.media-amazon.com/images/I/61amdwJRu-L._SX522_.jpg,3
+G0000025,Ginger,20,29,Ginger For Vegetables,https://www.jiomart.com/images/product/original/590003531/ginger-indian-200-g-product-images-o590003531-p590003531-0-202203171030.jpg,3
+G0000026,Apple,120,93,Apple in Fruits,https://media.istockphoto.com/photos/red-apple-with-leaf-picture-id683494078?k=20&m=683494078&s=612x612&w=0&h=MtHUc7vTTZGAAP4-o87T6v57g1KaJP5Vd_oh7LwQca8=,3
+G0000027,Pear,120,79,Pear in Fruits,https://bhindibazar.com/admin/upload/media/16454374341913.jpg,3
+G0000028,Banana,60,65,Banana in Fruits,"https://c.ndtvimg.com/2019-04/dl9g6gn8_bananas_625x300_11_April_19.jpg?im=Resize=(1230,900)",3
+G0000029,Grapes,30,55,Grapes in Fruits,https://cdn2.stylecraze.com/wp-content/uploads/2014/07/Is-It-True-That-Eating-Too-Many-Grapes-Causes-Side-Effects.jpg,3
